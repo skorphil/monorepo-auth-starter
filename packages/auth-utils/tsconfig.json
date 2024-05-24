@@ -1,5 +1,8 @@
 {
     "compilerOptions": {
-        "noImplicitAny": false // i specified this to allow imports of js modules (db-utils)
+        "noImplicitAny": false, // i specified this to allow imports of js modules (db-utils)
+        "module": "ESNext",
+        "target": "ESNext",
+        "moduleResolution":"Bundler"
     }
 }

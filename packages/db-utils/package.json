@@ -1,0 +1,11 @@
+{
+    "name": "@monorepo-auth/db-utils",
+    "type": "module",
+    "files": ["index.js"],
+    "version": "0.0.1",
+    "dependencies": {
+        "@lucia-auth/adapter-mongodb": "^1.0.3",
+        "dotenv": "^16.4.5",
+        "mongoose": "^8.4.0"
+    }
+}

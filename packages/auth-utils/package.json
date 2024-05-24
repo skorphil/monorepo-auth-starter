@@ -1,0 +1,9 @@
+{
+    "name": "@monorepo-auth/auth-utils",
+    "type": "module",
+    "version": "0.0.1",
+    "files": ["index.ts"],
+    "dependencies": {
+        "lucia": "^3.2.0"
+    }
+}

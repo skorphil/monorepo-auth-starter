@@ -1,0 +1,5 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": false // i specified this to allow imports of js modules (db-utils)
+    }
+}

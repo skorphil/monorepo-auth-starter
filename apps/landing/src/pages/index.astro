@@ -1,28 +1,28 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 
 const user = Astro.locals.user;
-if (!user) {
-	return Astro.redirect("/login");
+if (user) {
+  return Astro.redirect(process.env.WEB_URL);
 }
-
-const username = user.username;
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		<p>Your login is: {username}</p>
-	</main>
+  <main>
+    <h1>Landing page</h1>
+    <a href="/signup">Signup</a>
+    <a href="/login">Login</a>
+  </main>
 </Layout>
 
 <style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
-	}
+  main {
+    margin: auto;
+    padding: 1rem;
+    width: 800px;
+    max-width: calc(100% - 2rem);
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+  }
 </style>

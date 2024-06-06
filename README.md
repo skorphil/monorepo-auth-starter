@@ -1,5 +1,6 @@
 # Lucia authentication in monorepo starter pack
 Opionated minimal implementation of shared auth between multiple packages.
+Made for article – [Authentication in monorepo(NextJs, Astro) with Lucia and MongoDB](https://dev.to/skorphil/authentication-in-monoreponextjs-astro-with-lucia-and-mongodb-16d7)
 
 ## Project overview
 - `mysite.com` – landing page built with Astro
